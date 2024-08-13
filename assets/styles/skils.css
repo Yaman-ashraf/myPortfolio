@@ -1,0 +1,46 @@
+/* Skills Section */
+.div2 {
+    padding: 50px;
+    background-color: #1b1b1b;
+}
+
+.skils h1 {
+    font-size: 36px;
+    color: #f2b2fe;
+    text-align: center;
+}
+
+.table-of {
+    color: #e31b58;
+    font-family: "Brush Script MT", cursive;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-row {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-red {
+    background-color: #b20038;
+}
+
+.btn-green {
+    background-color: #235e5f;
+}
+
+.btn-yellow {
+    background-color: #e2a900;
+}

@@ -1,0 +1,97 @@
+@import url("skils.css");
+@import url("about.css");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap");
+
+
+
+/* #1B1B1B 
+    #fff 
+    #F2B2FE*/
+
+
+
+/* Global Styles */
+body {
+    margin: 0;
+    background-color: #1b1b1b;
+    color: #fff;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #1b1b1b;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container1 h1 {
+    font-size: 48px;
+    color: #f2b2fe;
+}
+
+.container1 .subtitle {
+    font-size: 18px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1b1b1b;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.pagination .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
